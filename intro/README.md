@@ -1,5 +1,6 @@
 Habilitar a função Hyper-V por meio de Configurações
 
+<<<<<<< HEAD
 habilitar hyper-V no Windows Server 2008 Server Manager Clicar em Start Administrative Toolss Clicar em Server Manager Add Roles selecionar a opcao Hyper-V em Roles 
 selecionar uma placa de rede para a rede virtual reiniciar o servidor Criar a maquina virtual de exemplo Acessar Server Manager Roles Hyper-V Hyper-V Manager Acessar o menu Action - 
 New - Virtual Machine - Wizard Especificar o nome da VM Atribuir a quantidade de memória RAM selecionar o adaptador de rede virtual conectar um disco escolher criar um disco virtual 
@@ -8,23 +9,29 @@ Clicar em conectar a VM Ligar a VM instalar o sistema operacional hypervisor do 
 virtuais Sistema operacional o host.
 
 
+=======
+- Clique com o botão direito do mouse no botão Windows e selecione "Aplicativos e Recursos".
+- Selecione Programas e Recursos à direita, nas configurações relacionadas.
+- Selecione Ativar ou Desativar Recursos do Windows.
+- Selecione Hyper-V e clique em OK.
+>>>>>>> bc626dbdf4a77312268999c1841485dcd5fe7db4
 - Abra a Criação Rápida do Hyper-V no menu Iniciar.
 - Selecione um sistema operacional ou escolha o seu usando uma origem de instalação local.
 - Se você quiser usar sua própria imagem para criar a máquina virtual, selecione Origem de Instalação Local.
 - Selecione Alterar Origem de Instalação.
 - Se a imagem for uma imagem do Linux, desmarque a opção Inicialização Segura.
+<<<<<<< HEAD
 - Selecione "Criar Máquina Virtual".
 
+=======
+-  Selecione "Criar Máquina Virtual".
+>>>>>>> bc626dbdf4a77312268999c1841485dcd5fe7db4
 Foi realizado HIPERVISOR tipo 2 conhecido como hospedados,pois, são executados como uma camada de software em uma sistema operacional,
 com outros programas de computador, neste caso foi utilizado o HYPER-V. 
-
-
 Haverá necessidade de realizar um UPGRADE na máquina pelo fato da máquina ser ultrapassada, então indicaria a máquina com as configurações abaixo.
 O servidor Dell T150 é Ideal para ser o primeiro servidor. Versátil, silencioso e fácil utilização. Compacto e potente conta com um processador 
 e sistema de fácil gerenciamento para você iniciar seus negócios de maneira eficiente, segura e com performance de nível empresarial.
-
 Servidor Dell EMC SERVIDOR DELL POWEREDGE T150 XEON E-2324G 2X8GB 2X HDD 2TB
-
 Núcleo do processador disponível: 4 núcleos
 Cache do processador: 8 MB
 Nome do processador: Intel® Xeon® E-2324G (3.1 GHz, 8M Cache, 4 núcleos/4 threads, Turbo 65W, 3200 MT/s)
