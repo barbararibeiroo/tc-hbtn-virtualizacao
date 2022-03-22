@@ -1,9 +1,11 @@
 Habilitar a função Hyper-V por meio de Configurações
 
-- Clique com o botão direito do mouse no botão Windows e selecione "Aplicativos e Recursos".
-- Selecione Programas e Recursos à direita, nas configurações relacionadas.
-- Selecione Ativar ou Desativar Recursos do Windows.
-- Selecione Hyper-V e clique em OK.
+habilitar hyper-V no Windows Server 2008 Server Manager Clicar em Start Administrative Toolss Clicar em Server Manager Add Roles selecionar a opcao Hyper-V em Roles 
+selecionar uma placa de rede para a rede virtual reiniciar o servidor Criar a maquina virtual de exemplo Acessar Server Manager Roles Hyper-V Hyper-V Manager Acessar o menu Action - 
+New - Virtual Machine - Wizard Especificar o nome da VM Atribuir a quantidade de memória RAM selecionar o adaptador de rede virtual conectar um disco escolher criar um disco virtual 
+escolher usar um disco existente realizar a configuracao do sistema operacional clicar com botaodireito na Vm clicar em Settings IDE Controller 1, selecione a imagem do Sistema Operaciona
+Clicar em conectar a VM Ligar a VM instalar o sistema operacional hypervisor do tipo 2 Este tipo de arquitetura necessita do sistema operacional para que sejam executadas as maquinas 
+virtuais Sistema operacional o host.
 
 
 - Abra a Criação Rápida do Hyper-V no menu Iniciar.
@@ -11,7 +13,7 @@ Habilitar a função Hyper-V por meio de Configurações
 - Se você quiser usar sua própria imagem para criar a máquina virtual, selecione Origem de Instalação Local.
 - Selecione Alterar Origem de Instalação.
 - Se a imagem for uma imagem do Linux, desmarque a opção Inicialização Segura.
--  Selecione "Criar Máquina Virtual".
+- Selecione "Criar Máquina Virtual".
 
 Foi realizado HIPERVISOR tipo 2 conhecido como hospedados,pois, são executados como uma camada de software em uma sistema operacional,
 com outros programas de computador, neste caso foi utilizado o HYPER-V. 
